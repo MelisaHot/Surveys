@@ -1,0 +1,364 @@
+@charset "utf-8";
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+body {
+  background: #2c3338;
+  color: #606468;
+  font: 87.5%/1.5em 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+.header{
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(online3.jpg);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+  
+  .menu{   
+    line-height: 50px;
+    z-index: 10;
+
+    
+  }
+  .menu a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 30px 10px;
+    transition: 0.4s;
+    display: inline-block;
+    z-index: 10;
+  }
+
+  .menu a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgba(231, 117, 0.7);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  .menu a:hover::after{
+    width: 100%;
+    
+  } 
+  
+  #active{
+    color: rgba(231, 117, 0.7);
+  }
+
+  #active::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgba(231, 117, 0.7);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  
+  .text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .text-box h1{
+    font-size: 50px;
+  }
+
+  .text-box p{
+    margin: 30px 0 40px;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .hero-btn:hover{
+    border: 1px solid rgba(231, 117, 0.7);
+    background: rgba(231, 117, 0.7);
+    transition: 1s;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .header2{
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(online4.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 370px 0;
+    text-align: center;
+  }
+
+  .footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0; 
+    color: #fff;
+}
+
+.footer h4{
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+.icons .fa{
+  color: rgba(231, 117, 0.7);
+  margin: 0 8px;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.section{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1{
+  font-size: 36px;
+  font-weight: 600;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.coll{
+  flex-basis: 31%;
+  background: rgba(231, 117, 0.7);
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  
+}
+
+h4{
+  text-align: center;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.coll:hover{
+  box-shadow: 0 0 20px 0px rgb(247, 114, 6);
+}
+
+#login form input {
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  padding: 0;
+  -webkit-appearance: none;
+}
+
+p {
+  line-height: 1.5em;
+}
+::placeholder{
+    color: #2c3338;
+}
+after { clear: both; }
+
+#login {
+  margin: 50px auto;
+  width: 320px;
+}
+
+#login form {
+  margin: auto;
+  padding: 22px 22px 22px 22px;
+  width: 100%;
+  border-radius: 5px;
+  background: #282e33;
+  border-top: 3px solid #434a52;
+  border-bottom: 3px solid #434a52;
+}
+
+#login form span {
+  background-color: rgba(231, 117, 0.7);
+  border-radius: 3px 0px 0px 3px;
+  border-right: 3px solid #a1a3a7;
+  color: #3e4144;
+  display: block;
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+#login form input[type="text"] {
+  background-color: rgba(231, 117, 0.7);
+  border-radius: 0px 3px 3px 0px;
+  color: #3e4144;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 235px;
+  height: 50px;
+}
+
+#login form input[type="email"] {
+    background-color: rgba(231, 117, 0.7);
+    border-radius: 0px 3px 3px 0px;
+    color: #3e4144;
+    margin-bottom: 1em;
+    padding: 0 16px;
+    width: 235px;
+    height: 50px;
+  }
+
+#login form select{
+    background-color: rgba(231, 117, 0.7);
+    border-radius: 0px 3px 3px 0px;
+    color: #2c3338;
+    margin-bottom: 1em;
+    padding: 0 16px;
+    width: 235px;
+    height: 50px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+   
+   
+}
+
+#login form input[type="password"] {
+  background-color: rgba(231, 117, 0.2);
+  border-radius: 0px 3px 3px 0px;
+  color: #3e4144;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 235px;
+  height: 50px;
+}
+
+#login form input[type="submit"] {
+  background: rgba(231, 117, 0.7);
+  border: 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+#login form input[type="submit"]:hover {
+  background: #3e4144;
+
+}
+
+.fieldset {
+  position: relative;
+  border: 1px solid rgb(250, 245, 245);
+  padding: 5px;
+}
+
+.fieldset h1 {
+  position: absolute;
+  top: 0;
+  font-size: 18px;
+  line-height: 1;
+  margin: -11px 5px 10px; /* half of font-size */
+  background: #fff;
+  padding: 0 3px;
+  color: #2c3338;
+}
+
+.content{
+  background-color: #282e33;
+  border-top: 3px solid #434a52;
+  border-bottom: 3px solid #434a52;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  z-index: 2;
+  position: relative;
+  box-shadow: 0px -1px 10px 5px rgba(231, 117, 0.7);
+  color: #fff;
+
+}
+
+.fieldset input[type="text"], textarea, select{
+  margin-top: 15px;
+  color: #2c3338;
+  display: block;
+  width: 50%;
+  height: 30px;
+  padding: 5px 10px;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.fieldset input[type="radio"],input[type="checkbox"]{
+  width: 1.25em;
+  height: 1.25em;
+  border-radius: 10%;
+  margin-right: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 14px;
+}
+
+
+.content input[type="submit"] {
+  background: rgba(231, 117, 0.7);
+  border: 0;
+  width: 50%;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  margin-left: 25%;
+  font-size: 16px;
+}
+.content input[type="submit"]:hover {
+  background: #3e4144;
+}
+
+

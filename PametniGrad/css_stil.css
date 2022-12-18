@@ -1,0 +1,345 @@
+body{
+	background-attachment:fixed;
+	background-image:url(CSS/s9.jpeg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	margin:0px;
+	padding:0px;
+}
+header{
+	position:relative;
+	width:1000px;
+	height:200px;
+	margin:auto;
+	border-width:15px;
+	
+}
+
+header nav{
+	position:absolute;
+	bottom:0px;
+	width:1000px;
+	height:50px;
+	background-image: linear-gradient(rgba(23, 58, 88,0.65), rgba(129, 100, 101,0.65));
+	z-index:3;
+}
+header nav a{
+	display:inline-block;
+	text-decoration:none;
+	font-size:15px;
+	text-align:center;
+	width:150px;
+	padding:14.5px 0px;
+	margin-right:-4.5px;
+	color:#EFEDEC;
+}
+header nav  a:nth-of-type(5){
+	color:#EFEDEC;
+	margin-left: 80px;
+}
+header nav  a:nth-of-type(6){
+	color:#EFEDEC;
+	
+}
+
+header nav a.trenutna{
+	background-image:url(sl8.png);
+	background-size:100%;
+}
+header nav a:hover{
+	background-image:url(sl8.png);
+	background-size:100%;
+}
+#Telo{
+	position:relative;
+	margin:0px auto 0px auto;
+	width:1000px;
+	min-height:961px;
+	background-image:  linear-gradient(rgba(23, 58, 88,0.8), rgba(129, 100, 101,0.8));
+	
+}
+#Telo aside{
+	position:absolute;
+	top:50px;
+	left:0px;
+	width:150px;
+}
+#Telo aside a{
+	display:block;
+	text-decoration:none;
+	font-size: 15px;
+	text-align:left;
+	width:131px;
+	padding:25px 0px 0px 7px;
+	margin:0px;
+	color:#EFEDEC;
+	border:6px ridge #173A58;
+	
+}
+#Telo aside a:nth-of-type(1){
+	border-top:3px solid #173A58;
+}
+#Telo aside p{
+	margin:0px;
+	padding:10px 0px;
+	font-size:26px; /*26*/
+	text-align:center;
+	color:#EFEDEC;
+	border:6px ridge #173A58;
+	background-image:url(00.png);
+	background-size:100%;
+}
+#Telo aside a.trenutna2{
+	color:#EFEDEC;
+	background-image:url(00.png);
+	background-size:100%;
+}
+#Telo aside a:hover{
+	color:#EFEDEC;
+	background-image:url(00.png);
+	background-size:100%;
+}
+#Telo aside a:nth-of-type(7 ){
+	background-image:url(00.png);
+	background-size:100%;
+}
+#Telo section{
+	position:relative;
+	width:830px; /*796*/
+	min-height:970px;
+	margin:0px 0px 0px 150px; /*184*/
+	padding:0px;
+	background-image: linear-gradient(rgba(23, 58, 88,0.65), rgba(129, 100, 101,0.65));
+	background-size:100%;
+	padding:0px 0px 20px 20px;
+}
+#Telo section p{
+	margin:0px;
+	padding:20px 40px 10px 20px;
+	color:#EFEDEC;
+	text-align:justify;
+}
+
+
+#Telo section div.Okvir{
+	display:inline-block;
+	margin:0px 29px 20px 0px;
+	width:165px;
+}
+#Telo section div.Okvir:nth-of-type(1 ){
+	margin-top:20px;
+}
+#Telo section div.Okvir:nth-of-type(2 ){
+	margin-top:20px;
+}
+#Telo section div.Okvir:nth-of-type(3 ){
+	margin-top:20px;
+}
+#Telo section div.Okvir:nth-of-type(4 ){
+	margin-top:20px;
+}
+#Telo section  div.Okvir div.Slika{
+	position:relative;
+	border-style:ridge;
+	border-radius:37px 0px 37px 0px;
+	border-width:7px;
+	border-color:white;
+	width:100%;
+	height:230px;
+}
+
+footer{
+	position:relative;
+	width:1000px;
+	height:60px;
+	margin:0px auto;
+	padding:3px 0px;
+	background-image: linear-gradient(rgba(23, 58, 88,0.8), rgba(129, 100, 101,0.65));
+	border-top:ridge;
+	border-bottom:ridge;
+	border-color:#173A58;
+	border-bottom-color:#173A58;
+	border-width:6px;
+	text-align:center;
+	text-decoration:none;
+	font-size: 20px;
+}
+footer p{
+	margin:5px 0px 9px 0px;
+	font-size:25px;
+}
+footer p.kraj{
+	color:rgb(255, 217, 0);;
+	font-size:15px;
+}
+footer a{
+	text-decoration:none;
+	color:#EFEDEC;
+	padding:0px 15px;
+}
+footer a:hover{
+	color:#173A58;
+}
+#Telo section.Registracija{
+	position:relative;
+	width:850px;
+	height:1000px;
+	margin:0px 0px 0px 150px;
+	background-image: linear-gradient(rgba(23, 58, 88,0.8), rgba(129, 100, 101,0.65));
+	background-size:100%;
+	padding:5px 0px;
+}
+
+
+#Telo section.Registracija h1{
+	font-size:50px;
+	color:#EFEDEC;
+	text-align:center;
+	margin-bottom:60px;
+	text-shadow: 7px -5px rgb(9, 31, 51);
+}
+#Telo section.Registracija form{
+	width:650px;
+	color:rgb(248, 245, 244);
+	font-size:21px;
+	margin:0px auto;
+	padding:0px;
+	box-shadow:20px 5px 50px 35px white;
+	border:2px solid #DFD1C4;
+	background-image: linear-gradient( #8B8289,#173A58);
+	background-size:100%;
+}
+#Telo section.Registracija form table{
+	width:555px;
+	margin:0px 30px;
+	padding-top:30px;
+}
+#Telo section.Registracija form table td{
+	padding-bottom:30px;
+}
+
+#Crna{
+	
+	width:100%;
+	min-height:500px;
+	
+	
+	
+}
+#Crna table.onama{
+	width:700px;
+	font-size:25px;
+	color:#EFEDEC;
+	border-radius:50px;
+	box-shadow: 20px 5px 50px 35px white;
+	padding:0px 30px 15px 30px;
+	margin:150px auto;
+}
+
+
+#Crna:hover{
+	color:white;
+}
+
+#Telo section #Anketa{
+	width:600px;
+	font-size:25px;
+	color:rgb(248, 245, 244);
+	background-image: linear-gradient(rgb(146, 123, 125), #173A58 );
+	border-style:ridge;
+	border-color:rgb(21, 53, 82);
+	border-width:5px;
+	box-shadow:20px 5px 50px 35px white;
+	margin-top:50px;
+	margin-left:75px;
+	margin-bottom:100px;
+	padding:20px;
+}
+
+#Telo section #Anketa h2{
+	text-align:center;
+	padding:0px;
+	margin:0px;
+}
+#Telo section #Anketa p{
+	text-align:center;
+	padding:20px 30px 30px 30px;
+	margin:0px;
+}
+
+#Telo section #animated{
+  -webkit-animation: mymove 3s infinite;
+  animation: mymove 3s infinite;
+}
+#Telo section #animated h1{
+  color: #D0CAC8;
+  text-align:center;
+  font-size:50px;
+  margin:0px;
+  padding-top:20px;
+}
+@-webkit-keyframes mymove {
+  50% {text-shadow: 10px 20px 30px #D0CAC8;}
+}
+
+#Crna table.Dobitnici{
+	width:auto;
+	font-size:25px;
+	color:#EFEDEC;
+	border-radius:50px;
+	box-shadow: 20px 5px 50px 35px white;
+	padding:15px 30px 15px 30px;
+	margin:100px auto;
+}
+
+
+#Crna table.Dobitnici td{
+	padding:20px;
+	
+}
+#Crna table.Ucesnici{
+	width:auto;
+	font-size:25px;
+	color:#EFEDEC;
+	border-radius:50px;
+	box-shadow: 20px 5px 50px 35px white;
+	padding:15px 30px 15px 30px;
+	margin:100px auto;
+}
+#Crna table.Ucesnici td{
+	padding:40px;
+	
+}
+#Tabela table.Odgovori_pregled{
+	width:1400px;
+	color:white;
+	font-size:16px;
+	padding:0px;
+	margin:30px auto;
+	border-collapse: collapse;
+	border-color:#173A58; 
+
+}
+#Tabela{
+	width:100%;
+	background-image: linear-gradient(#173A58, rgb(146, 123, 125));
+	overflow-y:auto; 
+}
+#Tabela table.Odgovori_pregled th{
+	color:white;
+	background-image: linear-gradient(#173A58, rgb(146, 123, 125));
+	padding:0px;
+	padding:5px 3px;
+}
+#Tabela table.Odgovori_pregled td{
+	color:white;
+	padding:5px 0px;
+
+}
+#Tabela table.Odgovori_pregled tr{
+	color:white;
+	padding:0px;
+}
+#Tabela table.Odgovori_pregled tr:nth-child(even) {
+	background-image: linear-gradient(#173A58,  rgb(146, 123, 125));
+}
